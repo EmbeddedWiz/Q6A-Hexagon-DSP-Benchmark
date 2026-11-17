@@ -1,0 +1,8 @@
+=== idle (fresh boot) ===
+2026-11-13T00:06:03+00:00
+git: 3c354c96e0868dbcb85145015577b98c636bae04
+thermal_before=53600
+{"mode":"rpc-latency","count":10000,"echo":{"n":10000,"min_ns":63901,"median_ns":74034,"mean_ns":86208.8,"p95_ns":105870,"p99_ns":150851,"max_ns":1.71014e+06},"step":{"n":10000,"min_ns":64256,"median_ns":73697,"mean_ns":86243.6,"p95_ns":103701,"p99_ns":157570,"max_ns":5.78017e+06}}
+{"mode":"rpc-scaling","repeats":30,"sizes":[{"steps":1,"median_us":88.2005,"min_us":85.657,"p95_us":407.774,"p99_us":418.16,"max_us":418.16,"median_ns_per_step":88200.5},{"steps":16,"median_us":93.6555,"min_us":81.04,"p95_us":99.452,"p99_us":107.635,"max_us":107.635,"median_ns_per_step":5853.47},{"steps":256,"median_us":356.658,"min_us":163.917,"p95_us":607.622,"p99_us":871.254,"max_us":871.254,"median_ns_per_step":1393.2},{"steps":4096,"median_us":1605.58,"min_us":1403.34,"p95_us":2185.95,"p99_us":2371.43,"max_us":2371.43,"median_ns_per_step":391.987},{"steps":16384,"median_us":5426.29,"min_us":4829.56,"p95_us":6272.82,"p99_us":6479.01,"max_us":6479.01,"median_ns_per_step":331.195}]}
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[60.80700684,60.7142334,60.84216309,60.49993896,61.06292725],"total_ns":[996262,994742,996838,991231,1000455],"min_ns_per_step":60.49993896,"median_ns_per_step":60.80700684,"mean_ns_per_step":60.78525391,"max_ns_per_step":61.06292725,"min_total_ns":991231,"median_total_ns":996262,"checksum":2827389792,"result":"PASS"}
+thermal_after=58300

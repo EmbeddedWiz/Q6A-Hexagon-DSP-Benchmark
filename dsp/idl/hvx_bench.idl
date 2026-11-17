@@ -1,0 +1,32 @@
+/*
+ * Project-owned FastRPC contract for the HVX vector-add microbenchmark.
+ *
+ * This is a separate interface from foc_bench on purpose. It is built as its
+ * own skeleton with HVX compiler flags, so enabling HVX cannot change the
+ * code generation or link layout of the FOC benchmark.
+ *
+ * `mode` selects the implementation:
+ *   0 = scalar accumulation
+ *   1 = HVX 128-byte vector accumulation, one accumulator
+ *   2 = HVX 128-byte vector accumulation, four independent accumulators
+ *
+ * All modes use the same deterministic 64-lane uint16 data and the same
+ * number of iterations. Raw cycle counts for up to five repetitions are
+ * returned through scalar `rout` fields.
+ */
+#include "remote.idl"
+
+interface hvx_bench : remote_handle64 {
+    long run(in long mode,
+             in long lanes,
+             in long iterations,
+             in long runs,
+             rout uint64_t cycles0,
+             rout uint64_t cycles1,
+             rout uint64_t cycles2,
+             rout uint64_t cycles3,
+             rout uint64_t cycles4,
+             rout uint64_t checksum,
+             rout long mismatches,
+             rout uint64_t status);
+};

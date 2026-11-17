@@ -1,0 +1,18 @@
+{
+  "probes": 5,
+  "soak_probes": 4,
+  "continuous_samples": 59,
+  "temperature_c": {"min": 46.2, "max": 68.4},
+  "cpu7_freq_khz": {"min": 806400, "max": 2707200},
+  "cold": "cold":{"max_temp_c":49.6,"dsp_cycles_per_step":377.032,"dsp_ns_per_step":323.8,"dsp_effective_mhz":1164.271,"cpu_ns_per_step":60.33,"cpu7_freq_max_khz":2707200},
+  "hot": "hot":{"max_temp_c":68.0,"dsp_cycles_per_step":377.011,"dsp_ns_per_step":325.9,"dsp_effective_mhz":1156.741,"cpu_ns_per_step":60.57,"cpu7_freq_max_khz":2707200},
+  "cooldown": "cooldown":{"max_temp_c":50.4,"dsp_cycles_per_step":377.004,"dsp_ns_per_step":325.4,"dsp_effective_mhz":1158.549,"cpu_ns_per_step":60.36,"cpu7_freq_max_khz":2707200},
+  "correlation": {
+    "dsp_cycles_per_step": {"pearson_r": 0.996264, "slope_per_c": 5.816507},
+    "dsp_ns_per_step": {"pearson_r": 0.996466, "slope_per_c": 5.010047},
+    "dsp_effective_mhz": {"pearson_r": 0.996027, "slope_per_c": 17.911715},
+    "cpu_ns_per_step": {"pearson_r": 0.999180, "slope_per_c": 0.917532},
+    "cpu7_freq_max_khz": {"pearson_r": 0.999156, "slope_per_c": 41011.109962}
+  },
+  "trace_freq_vs_temp": {"pearson_r": 0.646345, "slope_khz_per_c": 29243.510468}
+}

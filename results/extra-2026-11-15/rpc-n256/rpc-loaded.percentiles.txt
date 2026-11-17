@@ -1,0 +1,3 @@
+n=300 min_us=140.866 p50_us=147.012 p90_us=153.209 p99_us=171.695 max_us=3144.160 mean_us=161.666
+two_means_low_us=151.691 low_n=299 low_fraction=0.997 two_means_high_us=3144.160 high_n=1 high_fraction=0.003 split_us=1647.926
+histogram_high_us=171.695 above_p99=3

@@ -1,0 +1,30 @@
+# Build artifacts
+/build/
+/cmake-build-*/
+*.o
+*.a
+*.so
+*.so.*
+*.d
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local ad-hoc benchmark runs; the committed evidence is in results/
+/results/runs/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Backups created during the qualification session
+*.bak
+*.bak-*

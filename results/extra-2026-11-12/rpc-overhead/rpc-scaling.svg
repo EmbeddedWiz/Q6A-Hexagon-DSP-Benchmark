@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="460" viewBox="0 0 760 460">
+<rect width="100%" height="100%" fill="white"/>
+<text x="380.0" y="30" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold">CDSP RPC + N FOC steps (median wall)</text>
+<line x1="90" y1="390" x2="730" y2="390" stroke="#333"/>
+<line x1="90" y1="60" x2="90" y2="390" stroke="#333"/>
+<line x1="90" y1="390.0" x2="730" y2="390.0" stroke="#ddd"/>
+<text x="80" y="394.0" text-anchor="end" font-family="sans-serif" font-size="12">0</text>
+<line x1="90" y1="326.5" x2="730" y2="326.5" stroke="#ddd"/>
+<text x="80" y="330.5" text-anchor="end" font-family="sans-serif" font-size="12">1000</text>
+<line x1="90" y1="263.1" x2="730" y2="263.1" stroke="#ddd"/>
+<text x="80" y="267.1" text-anchor="end" font-family="sans-serif" font-size="12">2000</text>
+<line x1="90" y1="199.6" x2="730" y2="199.6" stroke="#ddd"/>
+<text x="80" y="203.6" text-anchor="end" font-family="sans-serif" font-size="12">3000</text>
+<line x1="90" y1="136.2" x2="730" y2="136.2" stroke="#ddd"/>
+<text x="80" y="140.2" text-anchor="end" font-family="sans-serif" font-size="12">4000</text>
+<line x1="90" y1="72.7" x2="730" y2="72.7" stroke="#ddd"/>
+<text x="80" y="76.7" text-anchor="end" font-family="sans-serif" font-size="12">5000</text>
+<text x="90.0" y="414" text-anchor="middle" font-family="sans-serif" font-size="12">1</text>
+<text x="250.0" y="414" text-anchor="middle" font-family="sans-serif" font-size="12">16</text>
+<text x="410.0" y="414" text-anchor="middle" font-family="sans-serif" font-size="12">256</text>
+<text x="570.0" y="414" text-anchor="middle" font-family="sans-serif" font-size="12">4096</text>
+<text x="730.0" y="414" text-anchor="middle" font-family="sans-serif" font-size="12">16384</text>
+<text x="410.0" y="440" text-anchor="middle" font-family="sans-serif" font-size="13">steps per RPC</text>
+<text x="22" y="225.0" text-anchor="middle" transform="rotate(-90 22 225.0)" font-family="sans-serif" font-size="13">median wall, µs</text>
+<polyline points="90.0,390.0 250.0,389.9 410.0,389.0 570.0,374.2 730.0,326.8" fill="none" stroke="#2a9d2a" stroke-width="2" stroke-dasharray="6 4"/>
+<polyline points="90.0,384.4 250.0,384.1 410.0,367.4 570.0,288.1 730.0,45.6" fill="none" stroke="#1f5fbf" stroke-width="3"/>
+<polyline points="90.0,384.4 250.0,384.1 410.0,379.9 570.0,310.4 730.0,97.9" fill="none" stroke="#d17a00" stroke-width="3"/>
+<circle cx="90.0" cy="384.4" r="4" fill="#1f5fbf"/>
+<circle cx="250.0" cy="384.1" r="4" fill="#1f5fbf"/>
+<circle cx="410.0" cy="367.4" r="4" fill="#1f5fbf"/>
+<circle cx="570.0" cy="288.1" r="4" fill="#1f5fbf"/>
+<circle cx="730.0" cy="45.6" r="4" fill="#1f5fbf"/>
+<circle cx="90.0" cy="384.4" r="4" fill="#d17a00"/>
+<circle cx="250.0" cy="384.1" r="4" fill="#d17a00"/>
+<circle cx="410.0" cy="379.9" r="4" fill="#d17a00"/>
+<circle cx="570.0" cy="310.4" r="4" fill="#d17a00"/>
+<circle cx="730.0" cy="97.9" r="4" fill="#d17a00"/>
+<text x="110" y="80" font-family="sans-serif" font-size="13" fill="#1f5fbf">idle</text>
+<text x="180" y="80" font-family="sans-serif" font-size="13" fill="#d17a00">CPU-loaded (2 loops)</text>
+<text x="400" y="80" font-family="sans-serif" font-size="13" fill="#2a9d2a">CPU compute, 60.17 ns/step</text>
+</svg>

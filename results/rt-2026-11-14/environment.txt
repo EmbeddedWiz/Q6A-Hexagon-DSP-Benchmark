@@ -1,0 +1,32 @@
+date_main=2026-11-14T00:44:23+00:00
+date_step_rerun=2026-11-14T00:50:00+00:00 (approximately, after main suite)
+kernel=Linux radxa-dragon-q6a 6.18.2-3-qcom #3 SMP PREEMPT_DYNAMIC Sat Feb 14 07:41:12 UTC 2026 aarch64
+cmdline=root=UUID=a03a5c05-3365-4811-a1dd-f1776983aa76 console=ttyMSM0,115200n8 quiet splash loglevel=4 rw earlycon consoleblank=0 console=tty1 coherent_pool=2M irqchip.gicv3_pseudo_nmi=0 cgroup_enable=cpuset cgroup_memory=1 cgroup_enable=memory swapaccount=1 kasan=off
+nproc=8
+governor=performance
+cur_freq_khz=2707200
+cpu7_affinity_measured_process=taskset -c 7
+irq_moved_off_cpu7=97
+irq_move_failed=41
+default_smp_affinity=7f
+isolcpus=absent
+main_samples_per_round=34000
+main_rounds=3
+main_warmup=100
+main_variants=cpu,dsp,dsp-rpc-step
+step_rerun_samples_per_round=35000
+step_rerun_warmup=1000
+bench_chunk_samples=10500
+bench_chunks_per_condition=10
+conditions=idle,cpu-load,memory-load,dsp-load
+cpu_stressor=ResNet-50 cpu-stressor-affinity, CPUs 4-5, 10 s repeated
+memory_load=2 threads, CPUs 4-5, 256 MiB per thread
+dsp_sampler_batch_steps=16
+dsp_sampler_array=uint16_t[100000] static
+timer_cpu=clock_gettime(CLOCK_MONOTONIC_RAW), 40.143 ns/call (1M)
+timer_dsp=qurt_get_core_pcycles, 24.015 cycles/call (1M, 10x100k)
+cdsp_frequency_direct_hz=1170000000
+cdsp_frequency_indirect_hz=1157200000
+temperature_range_c=58.3..90.7
+cdsp_pd_events=DSP PD went offline once after a long run (open error 114); reboot restored. Bench collected in 10.5k chunks.
+notes=Main series environment was captured before the step warm-up rerun; the step rerun used warmup=1000 and 35k samples/round. No isolcpus; 41 IRQs could not be moved.

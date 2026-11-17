@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+<rect width="720" height="360" fill="white"/>
+<text x="360" y="24" text-anchor="middle" font-family="sans-serif" font-size="14">Loaded, (above p99: 3)</text>
+<line x1="60" y1="320" x2="700" y2="320" stroke="#333"/>
+<line x1="60" y1="40" x2="60" y2="320" stroke="#333"/>
+<rect x="60" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="73.3333" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="86.6667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="100" y="290.526" width="12.3333" height="29.4737" fill="#2f6db3"/>
+<rect x="113.333" y="238.947" width="12.3333" height="81.0526" fill="#2f6db3"/>
+<rect x="126.667" y="150.526" width="12.3333" height="169.474" fill="#2f6db3"/>
+<rect x="140" y="40" width="12.3333" height="280" fill="#2f6db3"/>
+<rect x="153.333" y="62.1053" width="12.3333" height="257.895" fill="#2f6db3"/>
+<rect x="166.667" y="128.421" width="12.3333" height="191.579" fill="#2f6db3"/>
+<rect x="180" y="194.737" width="12.3333" height="125.263" fill="#2f6db3"/>
+<rect x="193.333" y="268.421" width="12.3333" height="51.5789" fill="#2f6db3"/>
+<rect x="206.667" y="253.684" width="12.3333" height="66.3158" fill="#2f6db3"/>
+<rect x="220" y="297.895" width="12.3333" height="22.1053" fill="#2f6db3"/>
+<rect x="233.333" y="290.526" width="12.3333" height="29.4737" fill="#2f6db3"/>
+<rect x="246.667" y="290.526" width="12.3333" height="29.4737" fill="#2f6db3"/>
+<rect x="260" y="187.368" width="12.3333" height="132.632" fill="#2f6db3"/>
+<rect x="273.333" y="113.684" width="12.3333" height="206.316" fill="#2f6db3"/>
+<rect x="286.667" y="157.895" width="12.3333" height="162.105" fill="#2f6db3"/>
+<rect x="300" y="224.211" width="12.3333" height="95.7895" fill="#2f6db3"/>
+<rect x="313.333" y="202.105" width="12.3333" height="117.895" fill="#2f6db3"/>
+<rect x="326.667" y="268.421" width="12.3333" height="51.5789" fill="#2f6db3"/>
+<rect x="340" y="297.895" width="12.3333" height="22.1053" fill="#2f6db3"/>
+<rect x="353.333" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="366.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="380" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="393.333" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="406.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="420" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="433.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="446.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="460" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="473.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="486.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="500" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="513.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="526.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="540" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="553.333" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="566.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="580" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="593.333" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="606.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="620" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="633.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="646.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="660" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<rect x="673.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="686.667" y="312.632" width="12.3333" height="7.36842" fill="#2f6db3"/>
+<text x="60" y="340" font-family="sans-serif" font-size="11">140.866 us</text>
+<text x="700" y="340" text-anchor="end" font-family="sans-serif" font-size="11">171.695 us</text>
+<text x="12" y="320" font-family="sans-serif" font-size="11">0</text>
+<text x="12" y="48" font-family="sans-serif" font-size="11">38</text>
+</svg>

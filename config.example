@@ -1,0 +1,33 @@
+# Example benchmark configuration (documentation only)
+#
+# The runner takes command-line flags; this file records the settings used in
+# the report and is not read automatically. Copy the values into a shell
+# command or source this file and expand them explicitly.
+
+RUNNER=build/foc/foc_runner
+MODE=all
+
+# Clock and measurement controls
+CLOCK_HZ=1160000000        # fallback only; the DSP normally measures its clock
+CALIBRATE=1                # 0 = use CLOCK_HZ; 1 = RPC-overhead-corrected wall
+DSP_PERF=0                 # 1 = request CDSP DCVS performance mode for bench
+SWEEP=1                    # 0 = skip the 16,384-point angle sweep
+RANDOM=4096
+
+# FOC/host benchmark sizes
+HVX_LANES=64               # 64..4096, multiple of 64
+HVX_ITERATIONS=5000
+HVX_RUNS=5
+PI_STEPS=100000
+PI_KI=120
+
+# P2 latency/scaling sample counts
+RPC_COUNT=10000
+RPC_REPEATS=30
+
+# Example commands:
+#   taskset -c 7 "$RUNNER" all
+#   taskset -c 7 "$RUNNER" rpc --rpc-count "$RPC_COUNT"
+#   taskset -c 7 "$RUNNER" rpc-scaling --rpc-repeats "$RPC_REPEATS"
+#   taskset -c 7 "$RUNNER" hvx --hvx-lanes 64 --hvx-iterations 5000
+#   taskset -c 7 "$RUNNER" hvx --hvx-lanes 4096 --hvx-iterations 5000

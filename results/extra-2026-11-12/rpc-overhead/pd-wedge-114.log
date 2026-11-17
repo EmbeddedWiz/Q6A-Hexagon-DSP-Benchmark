@@ -1,0 +1,7 @@
+=== idle repeat after 30 s rest ===
+2026-11-13T00:03:55+00:00
+git: 3c354c96e0868dbcb85145015577b98c636bae04
+thermal_before=49286
+foc_runner: foc_bench_open failed: 114 (uri=file:///libfoc_bench_skel.so?foc_bench_skel_handle_invoke&_modver=1.0&_dom=cdsp)
+foc_runner: foc_bench_open failed: 114 (uri=file:///libfoc_bench_skel.so?foc_bench_skel_handle_invoke&_modver=1.0&_dom=cdsp)
+thermal_after=49286

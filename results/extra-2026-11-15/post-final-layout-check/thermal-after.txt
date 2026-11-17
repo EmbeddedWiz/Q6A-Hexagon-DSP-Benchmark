@@ -1,0 +1,36 @@
+# after
+2026-11-16T22:33:23+00:00
+thermal_zone0 aoss0-thermal 45300
+thermal_zone1 cpu0-thermal 46900
+thermal_zone10 cpu7-thermal 46100
+thermal_zone11 cpu8-thermal 46500
+thermal_zone12 cpu9-thermal 45700
+thermal_zone13 cpu10-thermal 46900
+thermal_zone14 cpu11-thermal 46500
+thermal_zone15 aoss1-thermal 46500
+thermal_zone16 gpuss0-thermal 45300
+thermal_zone17 gpuss1-thermal 45700
+thermal_zone18 nspss0-thermal 45300
+thermal_zone19 nspss1-thermal 45000
+thermal_zone2 cpu1-thermal 47700
+thermal_zone20 video-thermal 45700
+thermal_zone21 ddr-thermal 46900
+thermal_zone22 mdmss0-thermal 45700
+thermal_zone23 mdmss1-thermal 44200
+thermal_zone24 mdmss2-thermal 44200
+thermal_zone25 mdmss3-thermal 45300
+thermal_zone26 camera0-thermal 46500
+thermal_zone27 xo-thermal 41566
+thermal_zone28 pm7250b-thermal 43556
+thermal_zone29 quiet-thermal 44885
+thermal_zone3 cpu2-thermal 48900
+thermal_zone30 msm-skin-thermal 44796
+thermal_zone31 pm7325-thermal 44720
+thermal_zone32 ufs-thermal 44872
+thermal_zone33 pm8350c-thermal 37000
+thermal_zone4 cpu3-thermal 48500
+thermal_zone5 cpuss0-thermal 48500
+thermal_zone6 cpuss1-thermal 49300
+thermal_zone7 cpu4-thermal 48100
+thermal_zone8 cpu5-thermal 47300
+thermal_zone9 cpu6-thermal 47700

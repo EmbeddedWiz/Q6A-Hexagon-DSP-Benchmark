@@ -1,0 +1,7 @@
+=== rpc-scaling N=256, idle ===
+2026-11-16T22:25:59Z
+git: 21abbf7d7f20bd5912d7e3163debc185917c078c
+governor_cpu7: schedutil
+thermal_before=41400
+{"mode":"rpc-scaling","repeats":300,"sizes":[{"steps":1,"median_us":86.3425,"min_us":71.032,"p90_us":99.362,"p95_us":108.267,"p99_us":182.788,"max_us":452.857,"median_ns_per_step":86342.5},{"steps":16,"median_us":82.854,"min_us":78.062,"p90_us":110.819,"p95_us":112.902,"p99_us":148.106,"max_us":915.244,"median_ns_per_step":5178.38},{"steps":256,"median_us":229.423,"min_us":149.564,"p90_us":627.99,"p95_us":996.692,"p99_us":1239.42,"max_us":1261.14,"median_ns_per_step":896.184},{"steps":4096,"median_us":1686.47,"min_us":1434.19,"p90_us":3076.73,"p95_us":3120.21,"p99_us":3397.88,"max_us":3589.68,"median_ns_per_step":411.736},{"steps":16384,"median_us":4953.85,"min_us":4472.11,"p90_us":5784.7,"p95_us":6168.92,"p99_us":6428.94,"max_us":6492.01,"median_ns_per_step":302.359}]}
+thermal_after=41800

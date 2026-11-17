@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450">
+<rect width="100%" height="100%" fill="white"/>
+<text x="450" y="24" text-anchor="middle" font-family="sans-serif" font-size="16">cpu-load / CPU A78 scalar (n=101700, log10 count)</text>
+<line x1="80" y1="390" x2="870" y2="390" stroke="black"/>
+<line x1="80" y1="40" x2="80" y2="390" stroke="black"/>
+<rect x="80" y="166" width="9.375" height="224" fill="#2f6f9f"/>
+<rect x="89" y="40" width="9.375" height="350" fill="#2f6f9f"/>
+<rect x="99" y="68" width="9.375" height="322" fill="#2f6f9f"/>
+<rect x="109" y="176" width="9.375" height="214" fill="#2f6f9f"/>
+<rect x="119" y="247" width="9.375" height="143" fill="#2f6f9f"/>
+<rect x="129" y="278" width="9.375" height="112" fill="#2f6f9f"/>
+<rect x="139" y="356" width="9.375" height="34" fill="#2f6f9f"/>
+<rect x="149" y="322" width="9.375" height="68" fill="#2f6f9f"/>
+<rect x="159" y="308" width="9.375" height="82" fill="#2f6f9f"/>
+<rect x="168" y="308" width="9.375" height="82" fill="#2f6f9f"/>
+<rect x="178" y="308" width="9.375" height="82" fill="#2f6f9f"/>
+<rect x="188" y="322" width="9.375" height="68" fill="#2f6f9f"/>
+<rect x="198" y="369" width="9.375" height="21" fill="#2f6f9f"/>
+<rect x="208" y="322" width="9.375" height="68" fill="#2f6f9f"/>
+<rect x="218" y="325" width="9.375" height="65" fill="#2f6f9f"/>
+<rect x="228" y="340" width="9.375" height="50" fill="#2f6f9f"/>
+<rect x="238" y="295" width="9.375" height="95" fill="#2f6f9f"/>
+<rect x="247" y="303" width="9.375" height="87" fill="#2f6f9f"/>
+<rect x="257" y="315" width="9.375" height="75" fill="#2f6f9f"/>
+<rect x="267" y="325" width="9.375" height="65" fill="#2f6f9f"/>
+<rect x="277" y="303" width="9.375" height="87" fill="#2f6f9f"/>
+<rect x="287" y="295" width="9.375" height="95" fill="#2f6f9f"/>
+<rect x="297" y="313" width="9.375" height="77" fill="#2f6f9f"/>
+<rect x="307" y="340" width="9.375" height="50" fill="#2f6f9f"/>
+<rect x="326" y="369" width="9.375" height="21" fill="#2f6f9f"/>
+<rect x="336" y="369" width="9.375" height="21" fill="#2f6f9f"/>
+<rect x="366" y="369" width="9.375" height="21" fill="#2f6f9f"/>
+<rect x="376" y="369" width="9.375" height="21" fill="#2f6f9f"/>
+<rect x="860" y="356" width="9.375" height="34" fill="#2f6f9f"/>
+<line x1="75" y1="390" x2="80" y2="390" stroke="black"/>
+<text x="70" y="394" text-anchor="end" font-family="sans-serif" font-size="11">0</text>
+<line x1="75" y1="303" x2="80" y2="303" stroke="black"/>
+<text x="70" y="307" text-anchor="end" font-family="sans-serif" font-size="11">1</text>
+<line x1="75" y1="215" x2="80" y2="215" stroke="black"/>
+<text x="70" y="219" text-anchor="end" font-family="sans-serif" font-size="11">2</text>
+<line x1="75" y1="128" x2="80" y2="128" stroke="black"/>
+<text x="70" y="132" text-anchor="end" font-family="sans-serif" font-size="11">4</text>
+<line x1="75" y1="40" x2="80" y2="40" stroke="black"/>
+<text x="70" y="44" text-anchor="end" font-family="sans-serif" font-size="11">5</text>
+<line x1="80" y1="390" x2="80" y2="395" stroke="black"/>
+<text x="80" y="410" text-anchor="middle" font-family="sans-serif" font-size="11">47</text>
+<line x1="277" y1="390" x2="277" y2="395" stroke="black"/>
+<text x="277" y="410" text-anchor="middle" font-family="sans-serif" font-size="11">371</text>
+<line x1="475" y1="390" x2="475" y2="395" stroke="black"/>
+<text x="475" y="410" text-anchor="middle" font-family="sans-serif" font-size="11">2.92e+03</text>
+<line x1="672" y1="390" x2="672" y2="395" stroke="black"/>
+<text x="672" y="410" text-anchor="middle" font-family="sans-serif" font-size="11">2.3e+04</text>
+<line x1="870" y1="390" x2="870" y2="395" stroke="black"/>
+<text x="870" y="410" text-anchor="middle" font-family="sans-serif" font-size="11">1.81e+05</text>
+<text x="475" y="435" text-anchor="middle" font-family="sans-serif" font-size="12">ns per step (log x)</text>
+</svg>

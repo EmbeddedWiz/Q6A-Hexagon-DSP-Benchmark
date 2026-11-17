@@ -1,0 +1,8 @@
+=== Q6A FOC suite ===
+2026-11-10T23:05:09+00:00
+project: /home/radxa/Projects/Q6A-Hexagon-DSP-Benchmark
+output:  /home/radxa/Projects/Q6A-Hexagon-DSP-Benchmark/results/runs/20261110T230455Z
+runner:  /home/radxa/Projects/Q6A-Hexagon-DSP-Benchmark/build/foc/foc_runner
+dsp library path: /home/radxa/Projects/hexagon-v68-test
+git commit: 245dc6ae6a1332bf6422602a5eb518f1ffe6c435
+git status before run: clean

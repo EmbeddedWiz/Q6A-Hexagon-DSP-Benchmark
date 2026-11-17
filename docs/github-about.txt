@@ -1,0 +1,2 @@
+Description: Fixed-point FOC benchmark on the Qualcomm Hexagon v68 CDSP in a Radxa Dragon Q6A (QCS6490), with FastRPC, CPU and HVX results plus raw evidence.
+Topics: hexagon, fastrpc, qcs6490, dsp, benchmark, radxa-dragon-q6a, embedded

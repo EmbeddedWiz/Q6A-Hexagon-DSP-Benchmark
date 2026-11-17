@@ -1,0 +1,7 @@
+=== cpu-loaded (2 yes loops on cpus 0 and 7; runner pinned to cpu 7) ===
+2026-11-13T00:02:27+00:00
+git: 3c354c96e0868dbcb85145015577b98c636bae04
+thermal_before=59000
+{"mode":"rpc-latency","count":10000,"echo":{"n":10000,"min_ns":64270,"median_ns":72603,"mean_ns":77847.1,"p95_ns":79581,"p99_ns":89164,"max_ns":4.0353e+06},"step":{"n":10000,"min_ns":64008,"median_ns":72810,"mean_ns":78322.4,"p95_ns":75727,"p99_ns":87550,"max_ns":5.33381e+06}}
+{"mode":"rpc-scaling","repeats":30,"sizes":[{"steps":1,"median_us":87.81,"min_us":73.696,"p95_us":92.498,"p99_us":101.039,"max_us":101.039,"median_ns_per_step":87810},{"steps":16,"median_us":93.096,"min_us":78.8,"p95_us":96.143,"p99_us":105.362,"max_us":105.362,"median_ns_per_step":5818.5},{"steps":256,"median_us":158.745,"min_us":154.527,"p95_us":171.662,"p99_us":171.922,"max_us":171.922,"median_ns_per_step":620.098},{"steps":4096,"median_us":1255.07,"min_us":1251.21,"p95_us":1396.99,"p99_us":2109.52,"max_us":2109.52,"median_ns_per_step":306.413},{"steps":16384,"median_us":4603.49,"min_us":4359.98,"p95_us":4819.03,"p99_us":4832.52,"max_us":4832.52,"median_ns_per_step":280.975}]}
+thermal_after=62200

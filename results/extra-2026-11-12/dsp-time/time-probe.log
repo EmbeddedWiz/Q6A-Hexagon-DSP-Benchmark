@@ -1,0 +1,19 @@
+=== direct DSP time probe ===
+2026-11-12T23:54:35+00:00
+git: 29188bbcfbe4df98255484997e6a95bf13c47b6b
+thermal: 48500
+Attempting to run on unsigned PD on domain 3
+RPC to Hexagon DSP with args: "time_probe.so stack_size=0x50000 "
+Error: Main on Hexagon DSP returned 117
+Attempting to run on unsigned PD on domain 3
+RPC to Hexagon DSP with args: "time_probe.so stack_size=0x50000 "
+Error: Main on Hexagon DSP returned 117
+Attempting to run on unsigned PD on domain 3
+RPC to Hexagon DSP with args: "time_probe.so stack_size=0x50000 "
+Error: Main on Hexagon DSP returned 117
+Attempting to run on unsigned PD on domain 3
+RPC to Hexagon DSP with args: "time_probe.so stack_size=0x50000 "
+Error: Main on Hexagon DSP returned 117
+Attempting to run on unsigned PD on domain 3
+RPC to Hexagon DSP with args: "time_probe.so stack_size=0x50000 "
+Error: Main on Hexagon DSP returned 117

@@ -1,0 +1,114 @@
+/*
+ * Project-owned FastRPC contract for the fixed-point FOC benchmark.
+ *
+ * Design rules:
+ *   - success status is the RPC return value and is separate from measurements;
+ *   - every result is returned through a `rout` parameter, never through
+ *     main() or a process exit code;
+ *   - only scalar argument shapes proven on this board are used
+ *     (uint64_t and int32_t rout values).
+ *
+ * `step` is deliberately per-vector: it lets the host drive a deterministic
+ * vector suite through one DSP session without shipping a serialization
+ * format or relying on RPCMEM sequence outputs.
+ */
+#include "remote.idl"
+
+interface foc_bench : remote_handle64 {
+    /* Transport sanity check: returns ~input so both 64-bit halves matter. */
+    long echo(in uint64_t input, rout uint64_t output);
+
+    /* Replace the controller configuration and reset all state. */
+    long configure(in long kp_d_q15,
+                   in long ki_d_q15,
+                   in long kp_q_q15,
+                   in long ki_q_q15);
+
+    /* Reset PI integrator state without changing the configuration. */
+    long reset();
+
+    /* Request CDSP performance mode for the following benchmark calls.
+     * enable=1 selects HAP DCVS performance mode; enable=0 restores the
+     * default up/down policy. No FOC state is touched. */
+    long set_perf(in long enable);
+
+    /*
+     * Run one FOC step.
+     *
+     * reset_state != 0 resets the controller before the step, which makes
+     * each host-driven sequence reproducible.
+     */
+    long step(in long ia_q15,
+              in long ib_q15,
+              in long id_ref_q15,
+              in long iq_ref_q15,
+              in long electrical_angle,
+              in long reset_state,
+              rout long id_q15,
+              rout long iq_q15,
+              rout long vd_q15,
+              rout long vq_q15,
+              rout long duty_a_q15,
+              rout long duty_b_q15,
+              rout long duty_c_q15);
+
+    /*
+     * Run the measured FOC loop on the CDSP.
+     *
+     * Up to five timed repetitions are returned as raw cycle counts so the
+     * host can report min/median/mean instead of discarding samples.
+     *
+     * The cycle counter counts CDSP core cycles, not wall time. `qurt_timer_get_ticks`
+     * returns zero in the unsigned protection domain used here, so the host
+     * derives the effective clock by subtracting a measured single-step RPC
+     * from the timed call's wall time.
+     *
+     * `status` is a workload-level bitmask:
+     *   bit 0: a timed region produced zero cycles
+     *   bit 1: checksum is zero
+     *   bit 2: cycles per step is outside [1, 1000000]
+     *   bit 3: checksums differ between repetitions (non-deterministic)
+     * status == 0 means every check passed. The RPC return value only
+     * reports transport/argument errors.
+     */
+    long bench(in long warmup,
+               in long runs,
+               in long iterations,
+               in long kp_d_q15,
+               in long ki_d_q15,
+               in long kp_q_q15,
+               in long ki_q_q15,
+               rout uint64_t cycles0,
+               rout uint64_t cycles1,
+               rout uint64_t cycles2,
+               rout uint64_t cycles3,
+               rout uint64_t cycles4,
+               rout uint64_t checksum,
+               rout uint64_t status);
+
+    /*
+     * L1 sampling contract: run `sample_count` batches of `batch_steps`
+     * FOC steps and store the cycle delta of every batch in a static DSP
+     * array. The host drains it with scalar sampler_get calls, preserving the
+     * scalar-only transport rule. This is a measurement build; it does not
+     * change the normal step/bench code path.
+     */
+    long sampler_run(in long batch_steps,
+                     in long sample_count,
+                     in long kp_d_q15,
+                     in long ki_d_q15,
+                     in long kp_q_q15,
+                     in long ki_q_q15,
+                     rout uint64_t total_cycles,
+                     rout uint64_t checksum,
+                     rout uint64_t status);
+
+    long sampler_count(rout long count);
+
+    long sampler_get(in long index,
+                     rout uint64_t cycles,
+                     rout uint64_t steps);
+
+    /* Cost of reading qurt_get_core_pcycles in a tight loop. */
+    long timer_overhead(in long iterations, rout uint64_t cycles);
+};

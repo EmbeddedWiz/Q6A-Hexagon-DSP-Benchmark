@@ -1,0 +1,14 @@
+=== CPU scalar FOC, A55 (cpu 0) vs A78 prime (cpu 7), 3 processes each ===
+2026-11-13T23:39:36+00:00
+git: 5be38525fe377b8d935400cb9cd7d95e776751b9
+topology: cpus 0-3 Cortex-A55 (max 1.9584 GHz), cpus 4-6 A78 (2.4 GHz), cpu 7 A78 (2.7072 GHz)
+thermal_before=39100
+--- cpu 0 (A55) ---
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[174.5001831,173.9885254,174.2999878,173.9694824,173.9916992],"total_ns":[2859011,2850628,2855731,2850316,2850680],"min_ns_per_step":173.9694824,"median_ns_per_step":173.9916992,"mean_ns_per_step":174.1499756,"max_ns_per_step":174.5001831,"min_total_ns":2850316,"median_total_ns":2850680,"checksum":2827389792,"result":"PASS"}
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[174.1411133,173.7723999,173.921814,173.8614502,173.8741455],"total_ns":[2853128,2847087,2849535,2848546,2848754],"min_ns_per_step":173.7723999,"median_ns_per_step":173.8741455,"mean_ns_per_step":173.9141846,"max_ns_per_step":174.1411133,"min_total_ns":2847087,"median_total_ns":2848754,"checksum":2827389792,"result":"PASS"}
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[174.0997925,173.4768677,173.5054321,173.4609375,173.5150146],"total_ns":[2852451,2842245,2842713,2841984,2842870],"min_ns_per_step":173.4609375,"median_ns_per_step":173.5054321,"mean_ns_per_step":173.6116089,"max_ns_per_step":174.0997925,"min_total_ns":2841984,"median_total_ns":2842713,"checksum":2827389792,"result":"PASS"}
+--- cpu 7 (A78 prime) ---
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[60.1340332,59.72406006,59.29498291,59.57470703,59.40301514],"total_ns":[985236,978519,971489,976072,973259],"min_ns_per_step":59.29498291,"median_ns_per_step":59.57470703,"mean_ns_per_step":59.62615967,"max_ns_per_step":60.1340332,"min_total_ns":971489,"median_total_ns":976072,"checksum":2827389792,"result":"PASS"}
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[59.63183594,59.20599365,59.46661377,59.4284668,59.46343994],"total_ns":[977008,970031,974301,973676,974249],"min_ns_per_step":59.20599365,"median_ns_per_step":59.46343994,"mean_ns_per_step":59.43927002,"max_ns_per_step":59.63183594,"min_total_ns":970031,"median_total_ns":974249,"checksum":2827389792,"result":"PASS"}
+{"mode":"cpu","warmup":256,"runs":5,"iterations":16384,"ns_per_step":[59.85437012,59.74951172,59.03436279,59.34906006,59.31085205],"total_ns":[980654,978936,967219,972375,971749],"min_ns_per_step":59.03436279,"median_ns_per_step":59.34906006,"mean_ns_per_step":59.45963135,"max_ns_per_step":59.85437012,"min_total_ns":967219,"median_total_ns":972375,"checksum":2827389792,"result":"PASS"}
+thermal_after=44600

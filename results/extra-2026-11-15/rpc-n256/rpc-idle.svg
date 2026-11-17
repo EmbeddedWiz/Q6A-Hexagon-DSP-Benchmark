@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="360" viewBox="0 0 720 360">
+<rect width="720" height="360" fill="white"/>
+<text x="360" y="24" text-anchor="middle" font-family="sans-serif" font-size="14">Idle, (above p99: 3)</text>
+<line x1="60" y1="320" x2="700" y2="320" stroke="#333"/>
+<line x1="60" y1="40" x2="60" y2="320" stroke="#333"/>
+<rect x="60" y="246.847" width="12.3333" height="73.1532" fill="#2f6db3"/>
+<rect x="73.3333" y="40" width="12.3333" height="280" fill="#2f6db3"/>
+<rect x="86.6667" y="299.82" width="12.3333" height="20.1802" fill="#2f6db3"/>
+<rect x="100" y="282.162" width="12.3333" height="37.8378" fill="#2f6db3"/>
+<rect x="113.333" y="287.207" width="12.3333" height="32.7928" fill="#2f6db3"/>
+<rect x="126.667" y="297.297" width="12.3333" height="22.7027" fill="#2f6db3"/>
+<rect x="140" y="309.91" width="12.3333" height="10.0901" fill="#2f6db3"/>
+<rect x="153.333" y="294.775" width="12.3333" height="25.2252" fill="#2f6db3"/>
+<rect x="166.667" y="304.865" width="12.3333" height="15.1351" fill="#2f6db3"/>
+<rect x="180" y="267.027" width="12.3333" height="52.973" fill="#2f6db3"/>
+<rect x="193.333" y="309.91" width="12.3333" height="10.0901" fill="#2f6db3"/>
+<rect x="206.667" y="312.432" width="12.3333" height="7.56757" fill="#2f6db3"/>
+<rect x="220" y="309.91" width="12.3333" height="10.0901" fill="#2f6db3"/>
+<rect x="233.333" y="314.955" width="12.3333" height="5.04505" fill="#2f6db3"/>
+<rect x="246.667" y="304.865" width="12.3333" height="15.1351" fill="#2f6db3"/>
+<rect x="260" y="312.432" width="12.3333" height="7.56757" fill="#2f6db3"/>
+<rect x="273.333" y="314.955" width="12.3333" height="5.04505" fill="#2f6db3"/>
+<rect x="286.667" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="300" y="314.955" width="12.3333" height="5.04505" fill="#2f6db3"/>
+<rect x="313.333" y="312.432" width="12.3333" height="7.56757" fill="#2f6db3"/>
+<rect x="326.667" y="294.775" width="12.3333" height="25.2252" fill="#2f6db3"/>
+<rect x="340" y="304.865" width="12.3333" height="15.1351" fill="#2f6db3"/>
+<rect x="353.333" y="312.432" width="12.3333" height="7.56757" fill="#2f6db3"/>
+<rect x="366.667" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="380" y="314.955" width="12.3333" height="5.04505" fill="#2f6db3"/>
+<rect x="393.333" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="406.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="420" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="433.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="446.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="460" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="473.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="486.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="500" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="513.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="526.667" y="307.387" width="12.3333" height="12.6126" fill="#2f6db3"/>
+<rect x="540" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="553.333" y="309.91" width="12.3333" height="10.0901" fill="#2f6db3"/>
+<rect x="566.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="580" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="593.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="606.667" y="314.955" width="12.3333" height="5.04505" fill="#2f6db3"/>
+<rect x="620" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="633.333" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="646.667" y="320" width="12.3333" height="0" fill="#2f6db3"/>
+<rect x="660" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="673.333" y="317.477" width="12.3333" height="2.52252" fill="#2f6db3"/>
+<rect x="686.667" y="312.432" width="12.3333" height="7.56757" fill="#2f6db3"/>
+<text x="60" y="340" font-family="sans-serif" font-size="11">149.564 us</text>
+<text x="700" y="340" text-anchor="end" font-family="sans-serif" font-size="11">1239.42 us</text>
+<text x="12" y="320" font-family="sans-serif" font-size="11">0</text>
+<text x="12" y="48" font-family="sans-serif" font-size="11">111</text>
+</svg>
